@@ -1,0 +1,5 @@
+rootProject.name = 'datanucleus-intellij-plugin'
+
+include 'jps-plugin'
+include 'integration'
+

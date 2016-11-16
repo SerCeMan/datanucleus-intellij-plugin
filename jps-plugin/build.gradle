@@ -1,0 +1,6 @@
+jar.archiveName = "jps-plugin.jar"
+
+
+dependencies {
+    compile project(':integration')
+}
