@@ -9,6 +9,7 @@ buildscript {
 
 plugins {
     id "org.jetbrains.intellij" version "0.1.8"
+    id 'net.researchgate.release' version '2.4.0'
 }
 
 allprojects {
@@ -53,6 +54,12 @@ allprojects {
     }
 }
 
+
+release {
+    newVersionCommitMessage = '[Datanucleus Intellij Plugin Release] - '
+    preTagCommitMessage = '[Datanucleus Intellij Plugin Release] - pre tag commit: '
+    buildTasks = ['buildPlugin']
+}
 
 
 dependencies {
