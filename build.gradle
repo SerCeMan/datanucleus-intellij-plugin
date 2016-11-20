@@ -33,7 +33,7 @@ allprojects {
     }
 
     intellij {
-        pluginName 'Datanucleus Intellij Plugin'
+        pluginName 'DatanucleusIntellijPlugin'
 
         version '2016.1.2'
         downloadSources Boolean.valueOf(true)
