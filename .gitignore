@@ -3,6 +3,7 @@
 *.iws
 /out/
 .sandbox
+*.iml
 
 ### Java ###
 *.class
